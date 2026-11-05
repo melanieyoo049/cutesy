@@ -60,7 +60,7 @@ export default function Home() {
     }
 
     if (user.role === 'admin') {
-      setMessage({ type: 'error', text: 'Akun Admin tidak meminjam buku. Gunakan menu manajemen.' });
+      setMessage({ type: 'error', text: 'Akun admin tidak meminjam buku. Gunakan menu manajemen.' });
       return;
     }
 
